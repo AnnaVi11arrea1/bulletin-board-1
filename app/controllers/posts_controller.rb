@@ -14,7 +14,7 @@ class PostsController < ApplicationController
 
     @the_post = matching_posts.at(0)
 
-    render({ :template => "posts/show" })
+    render({ :template => "boards/show" })
   end
 
   def create
